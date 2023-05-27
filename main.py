@@ -102,4 +102,4 @@ def admin_functions(path):
 
 
 if __name__ == '__main__':
-    app.run(host=IP)
+    app.run(host=IP, debug=3)
